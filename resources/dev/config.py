@@ -6,8 +6,8 @@ iv = "youtube_encyptyo"
 salt = "youtube_AesEncryption"
 
 #AWS Access And Secret key
-aws_access_key = "Wb4ULQJywpenLa2qq7l48sd5R9axyR0kXzAvQEpW+Dg="
-aws_secret_key = "2Dqq/xrMZp6570atMaonyUwgc2GmvOr4NeFqtxQTIL4f9hr+ZttZ0XnbU1f/8Dm5"
+aws_access_key = "Provide your's encripted access key"
+aws_secret_key = "Provide your's encripted secret key"
 bucket_name = "industry-data-engi-project"
 s3_customer_datamart_directory = "customer_data_mart"
 s3_sales_datamart_directory = "sales_data_mart"
@@ -21,8 +21,8 @@ s3_processed_directory = "sales_data_processed/"
 database_name = "industry_project"
 url = f"jdbc:mysql://localhost:3306/{database_name}"
 properties = {
-    "user": "root",
-    "password": '9667771241',
+    "user": "provide your mysql user name",
+    "password": 'provide you mysql database password',
     "driver": "com.mysql.cj.jdbc.Driver"
 }
 
